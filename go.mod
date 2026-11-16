@@ -1,6 +1,6 @@
 module xeiaso.net/v4
 
-go 1.27.3
+go 1.27.4
 
 require (
 	github.com/a-h/templ v0.3.1100
@@ -29,7 +29,7 @@ require (
 	gorm.io/gorm v1.31.2
 	k8s.io/apimachinery v0.37.2
 	k8s.io/client-go v0.37.2
-	tailscale.com v1.104.5
+	tailscale.com v1.104.7
 	within.website/x v1.31.0
 )
 
