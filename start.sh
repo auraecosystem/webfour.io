@@ -1,3 +1,6 @@
+curl https://cli.sentry.dev/install -fsS | bash
+brew install getsentry/tools/sentry
+npx sentry@latest
 nix build .#frontend
 chmod -R u+w frontend/dist 2>/dev/null; rm -rf frontend/dist && mkdir -p frontend/dist && cp -RL --no-preserve=mode ./result/* ./frontend/dist/
 
